@@ -1,5 +1,14 @@
 # @cotal-ai/cli
 
+## 0.176.5
+
+### Patch Changes
+
+- 57dd126: When an extension option starts with a typographic dash, suggest its spelling only if the selected subcommand accepts it.
+- b13f6e9: Keep the requested output format when `ps` suggests how to look up a Manager and retry an invalid selector. The retry also keeps the wide or slot view when requested.
+- @cotal-ai/core@0.176.5
+  - @cotal-ai/workspace@0.176.5
+
 ## 0.176.4
 
 ### Patch Changes
